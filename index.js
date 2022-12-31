@@ -85,7 +85,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res)=>{
-    res.send('Server is running')
+    res.send('Moto World Server is running')
 })
 
 app.listen(port, ()=>{
