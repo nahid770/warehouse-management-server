@@ -18,7 +18,7 @@ console.log('database connected')
 
 async function run(){
     try{
-        client.connect();
+        // await client.connect();
         const productCollection = client.db('motoWorld').collection('product')
 
         // Create new product form the client side
